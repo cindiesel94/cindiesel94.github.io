@@ -1,101 +1,90 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en-US">
 <head>
-<title>Cindy Trinh</title>
-<style>
-body, html {
-    height: 100%;
-    margin: 0;
-}
-
-.hero-image {
-  background-image: url("1080_Track.png");
-  height: 65%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-
-.hero-text button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 25px;
-  color: black;
-  background-color: #ddd;
-  text-align: center;
-  cursor: pointer;
-}
-
-.hero-text button:hover {
-  background-color: #555;
-  color: white;
-}
-
-        body {margin:0;}
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #ffffff;
-            position: fixed;
-            top: 0;
-            width: 100%;
-        }
-
-        li {
-            float: left;
-
-        }
-
-        li a {
-            display: block;
-            color: black;
-            text-align: center;
-            padding: 10px 50px;
-            text-decoration: none;
-        }
-
-        li a:hover:not(.active) {
-            text-shadow: 1px 1px #9F9F97;
-            
-        }
-
-        .active {
-            background-color: #ffffff;
-        }
-</style>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html">
+  <title>Cindy M Trinh</title>
+  <meta name="author" content="Cindy Trinh">
+  <link rel="shortcut icon" href="http://designshack.net/favicon.ico">
+  <link rel="icon" href="http://designshack.net/favicon.ico">
+  <link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
+  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
 </head>
+
 <body>
-
-<div class="hero-image">
-  <div class="hero-text">
-    <h1 style="font-size:50px">I am Cindy Trinh</h1>
-  </div>
-</div>
-
- <ul>
-                    <li><a href="index.html" target="_self"><font face="Verdana">Home</font></a></li>
-                    <li><a href="AboutMe.html" target="_self"><font face="Verdana">About Me</font></a></li>
-
+  
+  <div id="w">
+    <div id="content">
+      <nav id="stickynav">
+        <ul id="nav" class="clearfix">
+          <li><a href="#topbar">Homepage</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#photos">Photos</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-
-        <div style="padding:20px;margin-top:25px;background-color:#ffffff;height:1500px;">
-            <p><center><a href="http://35.161.29.134:3000"><img src="StoryCollab_200px_icon.png"></a> <a href="http://35.161.210.182"><img src="Whoosh_200px_icon.png"></a></p>
-            <p><iframe width="200" height="200" src="https://www.youtube.com/embed/xKkQxWfbAog" frameborder="0" allowfullscreen></iframe>  
-            <iframe width="200" height="200" src="https://www.youtube.com/embed/_xhXbF-LpLI" frameborder="0" allowfullscreen></iframe></center>
-            
-
+      </nav>
+      <h1>Cindy Trinh</h1>
+      
+      <p>Temporary design template, single-page scroll</p>
+      
+      
+      <p>Fill in words about general aspiration and interests, current project and maybe pictures.</p>
+      
+      <p></p>
+       <p></p>
+      
+      <br><br>
+      
+      <section id="experience" class="section">
+      <h2>Experience</h2>
+      
+      <p>Input</p>
+      
+      <p>?</p>
+      
+      <p>More Input, maybe videos</p>
+      
+      <p>Refrain from personal pictures</p>
+      
+      <p>Lots of paragraphs maybe just an image. Most likely just an image with interactiver links.</p>     
+      </section>
+      
+      
+      
+      <section id="photos" class="section">
+      <h2>Photos</h2>
+      
+      <br><br>
+      <br><br>
+      
+      </section>
+      
+      <section id="contact" class="section">
+      <h2>Contact Details</h2>
+      
+      <p>Not much else to say here. Why not get in touch!</p>
+      
+      <form method="post" action="#">
+        <input type="text" class="basic" placeholder="Name...">
+        
+        <input type="text" class="basic" placeholder="E-mail...">
+        
+        <textarea class="basictxt"></textarea>
+      </form>
+      <br><br><br>
+      </section>
+      </div>
+           <br><br><br><br><br><br> 
+    </div><!-- @end #content -->
+  </div><!-- @end #w -->
+<script type="text/javascript">
+$(function(){
+  $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+});
+</script>
 </body>
 </html>
