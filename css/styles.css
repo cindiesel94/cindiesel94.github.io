@@ -81,14 +81,22 @@ img { border: 0; max-width: 100%; }
   font-size: 1.2em;
   font-weight: bold;
   padding: 5px 7px;
+<<<<<<< HEAD
   background: #c6c3bf;
+=======
+  background: #cce4c4;
+>>>>>>> 896c9819cf93bf7f428b0a2c1dca976ba06c463a
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
 }
 #stickynav #nav li a:hover { 
   text-decoration: none;
+<<<<<<< HEAD
   background: #e4e2df;
+=======
+  background: #d8f0d0;
+>>>>>>> 896c9819cf93bf7f428b0a2c1dca976ba06c463a
 }
 
 #stickynav #nav li a.nav-active {
@@ -160,7 +168,11 @@ p {
   margin-bottom: 22px;
 }
 
+<<<<<<< HEAD
 a { color: #787f9f; text-decoration: none; }
+=======
+a { color: #5a9352; text-decoration: none; }
+>>>>>>> 896c9819cf93bf7f428b0a2c1dca976ba06c463a
 a:hover { text-decoration: underline; }
 
 .center { display: block; text-align: center; }
